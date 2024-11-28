@@ -7,3 +7,13 @@ export const productCategories = [
     description: '...',
   },
 ];
+
+export const products = [
+  {
+    category: 1 /* category id */,
+    name: '',
+    description: '',
+    price: 3000,
+    colors: [''],
+  },
+];
