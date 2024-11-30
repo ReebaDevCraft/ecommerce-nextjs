@@ -11,7 +11,6 @@ const Header = () => {
         
         <div className="text-2xl font-bold">TrendSphere</div>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 text-lg">
           <a href="/" className="hover:text-gray-300">Home</a>
           <a href="#" className="hover:text-gray-300">Product</a>
@@ -19,18 +18,15 @@ const Header = () => {
           <a href="#" className="hover:text-gray-300">Contact</a>
         </nav>
 
-        {/* Header Icons (Cart and Profile) */}
         <div className="flex items-center space-x-4">
           <button className="hover:text-gray-300">
             <FaShoppingCart size={20} />
           </button>
 
-          {/* Person/Profile Icon */}
           <button className="hover:text-gray-300">
             <FaUserCircle size={20} />
           </button>
 
-          {/* Mobile Hamburger Menu Icon */}
           <button
             className="md:hidden hover:text-gray-300"
             onClick={() => setIsOpen(!isOpen)}
@@ -40,7 +36,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
       {isOpen && (
         <nav className="md:hidden bg-[#134e4a] mt-4">
           <ul className="space-y-4 text-center">
