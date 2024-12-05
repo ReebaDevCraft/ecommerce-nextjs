@@ -1,1 +1,1 @@
-// inputs,buttons,etc
+//inputs or common pages here 
