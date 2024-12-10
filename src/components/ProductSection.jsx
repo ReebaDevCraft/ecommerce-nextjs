@@ -74,8 +74,8 @@ const ProductSection = () => {
               <Image
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
-                width={800}  // Larger width for better modal image size
-                height={800} // Maintain aspect ratio
+                width={800}  
+                height={800} 
                 className="object-contain w-full max-h-96"
               />
               <h3 className="text-2xl font-semibold mt-4">{selectedProduct.name}</h3>
